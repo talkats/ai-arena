@@ -103,7 +103,7 @@ export const ENV_KEYS = {
 export function getConfiguredProviders() {
   return {
     ...Object.fromEntries(
-      Object.entries(ENV_KEYS).map(([provider, envName]) => [provider, Boolean(process.env[envName])])
+    Object.entries(ENV_KEYS).map(([provider, envName]) => [provider, Boolean(process.env[envName])])
     ),
     ollama: true,
   };
