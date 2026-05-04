@@ -1,0 +1,20 @@
+{
+  "name": "ai-arena",
+  "version": "1.0.0",
+  "description": "Local-first arena for comparing AI models and running transparent multi-model debates.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}
